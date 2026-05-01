@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "name": "velora",
+  "functions": {
+    "api/metrics.js": { "memory": 128, "maxDuration": 60 }
+  },
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/api/metrics" }
+  ],
+  "trailingSlash": false
+}

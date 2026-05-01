@@ -1,0 +1,8 @@
+{
+  "name": "velora",
+  "version": "1.4.2",
+  "type": "module",
+  "description": "Developer-first API analytics platform",
+  "private": true,
+  "license": "MIT"
+}
